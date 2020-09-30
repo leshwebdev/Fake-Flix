@@ -4,4 +4,5 @@ $('.ui-select').on('change',function(){
         location.href = 'index-'+ value +'.html'; //or .php, etc. This will go to a page called en.html
     } else {
         location.href = 'index.html'
+    }
     });
