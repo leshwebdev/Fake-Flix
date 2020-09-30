@@ -1,0 +1,489 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: netflix-sans, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.navbar-cust {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 1em 0 white;
+  padding-top: 0px;
+}
+
+.navbar-collapse-cust.navbar-heb {
+  flex-grow: 0;
+}
+
+.navbar-cust ul {
+  margin-block-start: 0;
+}
+
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.stripe {
+  padding: 70px 45px 70px 45px;
+  border-bottom: 8px solid #222222;
+}
+
+.stripe.landing {
+  height: 85vh;
+  padding-top: 120px;
+  padding-bottom: 10px;
+  background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+}
+
+.stripe.landing .heading-cust2 {
+  text-align: center;
+}
+
+.landing-img {
+  position: absolute;
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+  z-index: -999;
+}
+
+.landing-img-heb {
+  margin-right: -100%;
+}
+
+.logo {
+  background-image: url(../img/1200px-Netflix_2015_logo.svg.png);
+  height: 25px;
+  width: 100px;
+  background-size: cover;
+}
+
+.stripe.faq .heading-cust {
+  max-width: 100%;
+}
+
+.heading-cust,
+.heading-cust2 {
+  font-size: 3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.heading-cust2 {
+  line-height: 1.2;
+  margin-top: -14px;
+}
+
+.subheading {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.txt {
+  margin-top: 10px;
+}
+
+.txt .heading-cust, .txt .subheading, .footer-links, .modal-txt, .card-body-cust {
+  text-align: initial;
+}
+
+.txt .heading-cust {
+  line-height: 1em;
+}
+
+
+
+.form {
+  margin: 10px;
+}
+
+.email {
+  padding-left: 10px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border: none;
+  min-width: 450px;
+}
+
+.button {
+  background-color: #e40813;
+  height: 40px;
+  width: 200px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.kids .txt,
+.download .txt {
+  margin-left: 30px;
+}
+
+.image {
+  position: relative;
+}
+
+.frame {
+  width: 450px;
+  height: 350px;
+}
+
+.animation {
+  position: absolute;
+  width: 325px;
+  top: 77px;
+  left: 61px;
+  z-index: -9;
+}
+
+.everywhere .image .animation {
+  position: absolute;
+  width: 290px;
+  top: 35px;
+  left: 80px;
+}
+
+.modal-cust {
+  position: absolute;
+  top: 255px;
+  left: 100px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  background: black;
+  width: 249px;
+  height: 81px;
+  box-shadow: 0 0 2em 0 black;
+  align-items: center;
+}
+
+.modal-img {
+  width: 45px;
+  margin: 5px;
+}
+
+.modal-txt-subheading {
+  color: #0071eb;
+  font-weight: normal;
+}
+
+.modal-progress {
+  width: 45px;
+  margin: 5px;
+}
+
+.faq-list {
+  width: 100%;
+}
+
+.card-cust {
+  background-color: black;
+  margin-bottom: 8px;
+}
+.card-header-cust:first-child {
+  background-color: #222222;
+  border-radius: 0px;
+}
+
+.btn-link-cust {
+  color: white;
+}
+
+.btn-link-cust:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-cust {
+  width: 100%;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.btn-cust:focus {
+  box-shadow: none;
+}
+
+.card-body-cust {
+  background-color: #222222;
+  margin-top: 2px;
+  font-weight: normal;
+}
+
+/* from Michael */
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  flex-basis: 25%;
+}
+
+.appMountPoint {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  background-color: #000;
+}
+
+.basicLayout {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+}
+
+.netflix-sans-font-loaded {
+  color: #333;
+  font-size: 16px;
+}
+
+.our-story-desktop-framework {
+  color: #333;
+  font-size: 16px;
+}
+
+.our-story-container {
+  color: #333;
+  font-size: 16px;
+  unicode-bidi: isolate;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.our-story-cards {
+  color: #333;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.our-story-card.our-story-card-no-border {
+  font-size: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  background: 0 0;
+  color: #fff;
+  padding: 70px 45px;
+  border-bottom: none;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.site-footer-wrapper {
+  min-width: 190px;
+  width: 100%;
+  padding-bottom: 20px;
+  font-size: 1em;
+  color: #757575;
+  position: relative;
+  margin-top: 0;
+}
+
+.footer-top-a {
+  font-size: 1em;
+  background-color: transparent;
+  text-decoration: none;
+  color: #757575;
+}
+
+.footer-country {
+  color: #757575;
+  font-size: 13px;
+  margin-top: 24px;
+}
+
+.footer-links {
+  max-width: 1000px;
+  font-size: 13px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-link {
+  color: #757575;
+}
+
+.site-footer {
+  font-size: 1em;
+  color: #757575;
+  padding-top: 0;
+}
+
+/* END OF from Michael */
+
+/* HELPERS */
+
+.flex {
+  display: flex;
+}
+
+.rev {
+  flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.v-centered {
+  align-items: center;
+}
+
+.h-centered {
+  justify-content: center;
+}
+
+.start {
+  align-items: flex-start;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.spread {
+  justify-content: space-between;
+}
+
+[data-toggle="collapse"] .fa:before {
+  content: "\f00d";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f067";
+}
+
+@font-face {
+  font-family: netflix-sans;
+  src: url("../font/netflix-sans/Netflix\ Sans\ Light.otf");
+}
+
+@media only screen and (max-width: 948px) {
+  .stripe.kids,
+  .stripe.enjoy,
+  .stripe.download,
+  .stripe.everywhere {
+    flex-direction: column-reverse;
+  }
+
+  .heading-cust,
+  .heading-cust2 {
+    max-width: 100%;
+  }
+
+  .txt .heading-cust, .txt .subheading {
+    text-align: center;
+  }
+
+  .txt {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-collapse-cust {
+    position: absolute;
+    top: 85px;
+    right: 6%;
+    padding: 5px 20px 5px 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px 0px rgba(255, 255, 255, 0.5);
+  }
+
+  .navbar-heb {
+    right: 72%;
+  }
+
+  .navbar-heb ul {
+    margin-right: -34px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .stripe.landing {
+    padding-top: 120px;
+  }
+
+  .heading-cust {
+    font-size: 1.8rem;
+  }
+
+  .heading-cust2 {
+    font-size: 1.8rem;
+    margin-top: -14px;
+  }
+
+  .subheading {
+    font-size: 1rem;
+    margin-top: 2px;
+  }
+
+  .email {
+    min-width: 250px;
+  }
+
+  li {
+    flex-basis: 33%;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  .stripe.landing {
+    padding-top: 120px;
+  }
+
+  .form {
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .email {
+    border-radius: 2px;
+    min-width: 300px;
+    min-height: 40px;
+    font-size: 0.8rem;
+  }
+
+  .button {
+    margin-top: 10px;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .button {
+    height: 35px;
+  }
+
+  .button.try,
+  .txt.disclaimer {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  li {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 486px) {
+  .stripe.landing {
+    padding-top: 80px;
+  }
+}
